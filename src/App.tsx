@@ -13,9 +13,9 @@ function App() {
   return (
     <>
       <Heading />
-      <GameContainer />
+      <GameContainer></GameContainer>
     </>
-  )
+  );
 }
 
 export default App
