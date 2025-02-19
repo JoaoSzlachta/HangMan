@@ -6,7 +6,7 @@ import Keyboard from "../keyboard/keyboard";
 
 export default function GameContainer () {
     return (
-      <div>
+      <div className="game-container">
         <HangmanDrawing></HangmanDrawing>
         <HangmanWord></HangmanWord>
         <Keyboard></Keyboard>

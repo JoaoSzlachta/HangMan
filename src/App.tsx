@@ -13,7 +13,7 @@ function App() {
   return (
     <>
       <Heading />
-      <GameContainer></GameContainer>
+      <GameContainer />
     </>
   );
 }
