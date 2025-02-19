@@ -1,0 +1,59 @@
+.bodyParts__head {
+    width: 25px;
+    height: 25px;
+    border-radius: 100%;
+    border: 5px solid black;
+    position: absolute;
+    top: 25px;
+    right: -15px;
+}
+
+.bodyParts__body {
+    width: 5px;
+    height: 50px;
+    background: black;
+    position: absolute;
+    top: 60px;
+    right: 0;
+}
+
+.bodyParts__leftArm {
+    width: 35px;
+    height: 5px;
+    background: black;
+    position: absolute;
+    top: 75px;
+    right: 5.5px;
+
+}
+
+.bodyParts__rightArm {
+    width: 35px;
+    height: 5px;
+    background: black;
+    position: absolute;
+    top: 75px;
+    right: -35.5px;
+}
+
+.bodyParts__leftLeg {
+    width: 40px;
+    height: 5px;
+    background: black;
+    position: absolute;
+    top: 105px;
+    right: 2.5px;
+    rotate: -60deg;
+    transform-origin: right bottom;
+}
+
+.bodyParts__rightLeg {
+    width: 40px;
+    height: 5px;
+    background: black;
+    position: absolute;
+    top: 105px;
+    right: -37.5px;
+    rotate: 60deg;
+    transform-origin: left bottom;
+}
